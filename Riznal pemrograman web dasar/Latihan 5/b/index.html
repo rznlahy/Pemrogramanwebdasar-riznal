@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Percabangan dengan Range Nilai</title>
+  <style>
+    .output {
+      font-weight: bold;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Percabangan dengan Range Nilai</h1>
+
+  <script>
+    // Contoh nilai
+    var nilai = 80;
+    var hasil;
+
+    // Percabangan if..else dengan range nilai
+    if (nilai > 90) {
+      hasil = "Sangat Baik";
+    } else if (nilai > 75) {
+      hasil = "Baik";
+    } else if (nilai > 60) {
+      hasil = "Cukup";
+    } else {
+      hasil = "Kurang";
+    }
+
+    // Menampilkan hasil
+    document.write("<p class='output'>" + nilai + " mendapatkan predikat: " + hasil + "</p>");
+  </script>
+
+</body>
+
+</html>
